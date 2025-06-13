@@ -1,5 +1,4 @@
 def calculate_future_value(pv,rate,years): 
-print("pv:",pv)
-print("rate:",rate)
-print("years:"years)
+fv=pv*(rate+1/100) ** years
+print("future value after", years, "year is", round (fv,2)
 calculate_future_values(10000;5%;5)
