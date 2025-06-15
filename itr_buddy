@@ -1,0 +1,30 @@
+https://replit.com/@ananyacomp511/Python#main.py
+
+# AUTO_ITR_FILING_BUDDY
+print("I build this to help you to file your own itr within mintues.")
+first_name= input('Enter your first_name: ')
+middle_name= input('Enter your middle_name(if applicable): ')
+last_name= input('Enter your last_name: ')
+DOB= input('Enter your DOB(DD/MM/YY): ')
+PAN_number= input('Enter your PAN number: ')
+income= input('Enter your income: ')
+mobile_number= input('Enter your mobile_number(10_digits): ')
+email_address = input('Enter your email_address: ')
+bank_account_number = input('Enter your bank_account_number: ')
+aadgar_card_number = input('Enter your aadgar_card_number(12_digits): ')
+address = input('Enter your address : ')
+
+
+#output (16/6)
+I build this to help you to file your own itr within mintues.
+Enter your first_name: 
+Enter your middle_name(if applicable): 
+Enter your last_name: 
+Enter your DOB(DD/MM/YY): 
+Enter your PAN number: 
+Enter your income: 
+Enter your mobile_number(10_digits): 
+Enter your email_address: 
+Enter your bank_account_number: 
+Enter your aadgar_card_number(12_digits): 
+Enter your address : 
