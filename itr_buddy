@@ -28,3 +28,49 @@ Enter your email_address:
 Enter your bank_account_number: 
 Enter your aadgar_card_number(12_digits): 
 Enter your address : 
+
+# AUTO_ITR_FILING_BUDDY
+print("I build this to help you to file your own itr within mintues.")
+first_name= input('Enter your first_name: ')
+middle_name= input('Enter your middle_name(if applicable): ')
+last_name= input('Enter your last_name: ')
+DOB= input('Enter your DOB(DD/MM/YY): ')
+PAN_number= input('Enter your PAN number: ')
+if len(PAN_number) != 10:
+  print("Please enter valid PAN number")
+income= input('Enter your income: ')
+mobile_number= input('Enter your mobile_number(10_digits): ')
+if len(mobile_number) != 10:
+  print("Please enter valid mobile number")
+email_address = input('Enter your email_address: ')
+bank_account_number = input('Enter your bank acc number: ')
+if len(bank_account_number) != 12:
+  print("Please enter valid bank acc number")
+aadhar_card_number = input('Enter your Aadhar number: ')
+if len(aadhar_card_number) != 12:
+  print("Please enter valid Aadhar number")
+address = input('Enter your address : ')
+
+
+# AUTO_ITR_FILING_BUDDY
+print("I build this to help you to file your own itr within mintues.")
+first_name= input('Enter your first_name: ')
+middle_name= input('Enter your middle_name(if applicable): ')
+last_name= input('Enter your last_name: ')
+DOB= input('Enter your DOB(DD/MM/YY): ')
+PAN_number= input('Enter your PAN number: ')
+if len(PAN_number) == 10:
+print("Please enter valid PAN number")
+income= input('Enter your income: ')
+mobile_number= input('Enter your mobile_number(10_digits): ')
+if len(mobile_number) != 10:
+  print("Please enter pvalid mobile number")
+email_address = input('Enter your email_address: ')
+bank_account_number = input('Enter your bank acc number: ')
+if len(bank_account_number) != 12:
+  print("Please enter valid bank acc number")
+aadhar_card_number = input('Enter your Aadhar number: ')
+if len(aadhar_card_number) != 12:
+  print("Please enter valid Aadhar number")
+address = input('Enter your address : ')
+
