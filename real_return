@@ -1,0 +1,13 @@
+deposit_amount = float(input("enter your desposit_amount: "))
+interest_rate = float(input("enter your interest_rate: "))
+inflation_rate = float(input("enter your inflation_rate: "))
+
+interest_rate_decimal= interest_rate/100
+inflation_rate_decimal= inflation_rate/100
+
+real_return = (interest_rate_decimal+1/(inflation_rate_decimal+1)-1)*100
+print("\n real_return: {:.2f}%".format(real_return))
+if real_return> inflation_rate:
+  print("ohk u r not being scammed")
+else:
+  print("ur bank is scamming u")
